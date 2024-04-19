@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #d6c6c6;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, ul,li, ol, p{
+	margin: 0;
+}
+
+p{
+	color: rgba(22, 22, 22, 0.92);;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.style{
+	font-style: italic;
+}
+
+.font1{
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.transform1{
+	text-transform: capitalize;
+}
+
+.transform2{
+	text-transform: uppercase;
+}
+.pd-top{
+	padding-top: 10px;
+}
+.pd-rt{
+	padding-right: 15px;
+}
+
+.pd-rt1{
+	padding-right: 5px;
+}
+
+/*NAV CSS*/
+.nav {
+	display: flex;
+	background-color: #000;
+	height:49px;
+	color: #fff;
+	align-items: center;
+	font-family: 'Golos Text', sans-serif;
+}
+
+.nav li{
+    cursor: pointer;
+}
+.main{
+	font-size: 25px;
+	font-family: 'roboto',sans-serif;
+}
+.brand{
+	display: flex;
+}
+.brand img{
+	max-width: 44px;
+}
+/*nav css end*/
+
+/*serch css*/
+.search-btn {
+    padding: 21px;
+    text-align: left;
+    background: #000;
+    color: #fff;
+    position: relative;
+    left: 39%;
+    margin: 25px auto 7px;
+    max-width: 18%;
+    width: 100%;
+}
+
+#searchicon {
+    position: absolute;
+    left: 51.5%;
+    top: 16%;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    /* position: sticky; */
+}
+
+#searchicon:hover{
+	transform: scale(0.9);
+}
+.again{
+    font-family: 'Varela Round', sans-serif;
+	
+}
+/*search  css end*/
+/*bottom css*/
+
+.bottom {
+    /* max-height: 131px; */
+    height: 104px;
+    background: #000;
+    align-items: center;
+    position: sticky;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-family: 'roboto',sans-serif;;
+}
+
+#myprocessbar{
+	max-width: 80%;
+    width: 100%;
+    max-height: 30px;
+    cursor: pointer;
+}
+
+.icons{
+	margin-top: 17px;
+	font-size: 28px;
+}
+
+.icons i{
+	cursor: pointer;
+}
+
+.song-info{
+	position: absolute;
+    left: 10vw;
+    bottom: 3vw;
+}
+
+.song-info img{
+	opacity: 0;
+	transition: opacity 0.4s ease-in;
+}
+/*container css*/
+.container {
+    min-height: 75vh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #000;
+    color: #fff;
+    max-width: 88%;
+    width: 100%;
+    margin: 23px auto;
+    padding: 34px;
+    border-radius: 12px;
+    border: solid 4px;
+    background-image: url(../bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.song_list_container{
+	margin: 74px 0;
+}
+
+.songitem {
+    background-color: #fff;
+    color: #000;
+    margin: 12px 0;
+    height: 50px;
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songitem img{
+	width: 43px;
+	margin: 0 23px;
+}
+
+.timestamp i{
+	cursor: pointer;
+}
+
+.active{
+    color: red;
+}

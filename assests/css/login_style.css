@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#b9eed6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, ul,li, ol, p{
+	margin: 0;
+}
+
+p{
+	color: rgba(22, 22, 22, 0.92);;
+}
+
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #578f76;
+}
+
+.style{
+	font-style: italic;
+}
+
+.font1{
+    font-family: "Poppins-Bold", sans-serif;
+}
+
+.transform1{
+	text-transform: capitalize;
+}
+
+.transform2{
+	text-transform: uppercase;
+}
+
+
+.align{
+    text-align: left;
+}
+
+/* section css */
+#loginform{
+    text-align: center;
+    /* position: relative; */
+}
+
+.loginbox {
+    max-width: 443px;
+    width: 100%;
+    border: solid #fff;
+    position: absolute;
+    left: 37%;
+    top: 7%;
+    max-height: 596px;
+    height: 100%;
+    padding: 36px;
+    background: #fff;
+    border-radius: 11px;
+}
+
+.form-label{
+    margin-bottom: 10px;
+    color: #578f76;
+    font-size: 20px;
+}
+.fill {
+    margin: 20px 0;
+    padding: 18px 14px;
+    width: 100%;
+}
+.sign_btn {
+    background-color: #578f76;
+    color: #fff;
+    max-width: 94px;
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.sign_btn:hover{
+   color: #000;
+   transform: scale(0.9);
+}
+.check{
+    position: relative;
+    right: 25%;
+    bottom: 14px;
+}
+.form-check-lable{
+    font-size: 13px;
+    /* position: absolute; */
+}
+.form-check-input{
+    font-size: 13px;
+}
+.change_pass{
+    font-size: 14px;
+    padding-top: 3px;
+}
